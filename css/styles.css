@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
 a{
     color:#11999e;
     text-decoration: none;
@@ -45,8 +51,8 @@ hr{
     
 }
 .myprofile{
-    height:12.5rem;
-    width:12.5rem;
+    height:12rem;
+    width:12rem;
 }
 .skills-img1{
     height:25%;
@@ -69,6 +75,22 @@ hr{
 .middle-container{
     background-color:#F7F5EB;
     padding:3.125rem;
+}
+
+.Projects{
+    background-color: #E4F9f5;
+    padding:3.125rem;
+}
+
+.project-row{
+    margin:auto 25%;
+}
+
+.project-item{
+    line-height:2;
+    text-align: left;
+    padding:auto 25%;
+    margin-bottom:15px;
 }
 .bottom-container{
     background-color:#66bfbf;
@@ -127,3 +149,113 @@ hr{
     margin:auto 25%;
     line-height:1.5;
   }
+
+  @media only screen and (max-width: 730px) {
+    .mountain{
+        width:400px;
+    }
+    .bottom-cloud{
+        left:5%;
+    }
+  }
+
+  li{
+    list-style: none;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .mountain{
+        width:250px;
+    }
+
+    .middle-container{
+        padding:1.5rem;
+    }
+
+    .profile{
+        width:90%;
+        margin:10%;
+    }
+
+    .Projects{
+        padding:1.5rem;
+    }
+
+    .skill-row{
+        padding:10%;
+    }
+
+    .contact-me{
+        margin:10%;
+        width:80%;
+    }
+
+    .contact{
+        margin:1.5rem;
+    }
+
+    .project-row{
+        margin:10%;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    .top-container{
+        padding:3rem;
+    }
+
+    .mountain{
+        width: 150px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+
+    #description{
+        font-size:1.5rem;
+    }
+
+    .bottom-cloud{
+        left:-15%;
+    }
+    .top-cloud{
+        right:0;
+    }
+
+    .btn{
+        font-size:0.8rem;
+    }
+
+    .myprofile{
+        height:10rem;
+        width:10rem;
+    }
+
+    .contact-me .btn{
+        font-size: 0.7rem;
+    }
+
+    
+  }
+
+
+@media only screen and (max-width: 285px) {
+    .btn{
+        font-size:0.6rem;
+    }
+
+    .contact-me .btn{
+        font-size: 0.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 263px) {
+    .btn{
+        font-size:0.5rem;
+    }
+
+    .contact-me .btn{
+        font-size: 0.4rem;
+    }
+  }
+  
